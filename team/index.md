@@ -7,29 +7,46 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Meet the members of StatAI Lab.
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+## Group Photo
 
-{% include section.html background="images/background.jpg" dark=true %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+{%
+  include figure.html
+  image="images/group-photo.jpg"
+  caption="StatAI Lab members"
+%}
 
 {% include section.html %}
 
-{% capture content %}
+## Principal Investigator
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %}
 
-{% endcapture %}
+{% include section.html %}
 
-{% include grid.html style="square" content=content %}
+## PhD Students
+
+{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+
+{% include section.html %}
+
+## Master's Students
+
+{% include list.html data="members" component="portrait" filter="role == 'master'" %}
+
+{% include section.html %}
+
+## Undergraduate Students
+
+{% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
+
+{% include section.html %}
+
+## Alumni
+
+StatAI Lab is proud of our former members who continue to advance the field of AI and statistics in various institutions worldwide.
+
+{% include list.html data="members" component="portrait" filter="role == 'alumni'" %}

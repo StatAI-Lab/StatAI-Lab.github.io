@@ -2,26 +2,27 @@
 title: Research
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Research projects and software
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-wrench" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our research spans the intersection of large language models and statistical inference,
+with a focus on developing principled methods for uncertainty quantification, interpretability,
+and robust decision-making in AI systems.
 
-{% include section.html %}
-
-## Highlighted
-
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
-
-{% include section.html %}
-
-## All
-
-{% include search-box.html %}
+{% include tags.html tags="software, resource, methodology" %}
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include section.html %}
+
+## Featured Projects
+
+{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+
+{% include section.html %}
+
+## Ongoing Work
+
+{% include list.html component="card" data="projects" filter="!group" style="small" %}

@@ -1,27 +1,31 @@
 ---
-title: Projects
+title: Publication
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-book" %}Publication
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+A complete list of peer-reviewed publications from StatAI Lab members.
+Our work appears in top-tier venues across machine learning, statistics, and data science.
 
-{% include tags.html tags="publication, resource, website" %}
+{% include section.html %}
+
+## Highlighted
+
+{% include citation.html lookup="placeholder-icml2023a" style="rich" %}
+{% include citation.html lookup="placeholder-icml2023b" style="rich" %}
+{% include citation.html lookup="placeholder-jasa2021" style="rich" %}
+{% include citation.html lookup="placeholder-ijcai21" style="rich" %}
+{% include citation.html lookup="placeholder-neurips2020" style="rich" %}
+
+{% include section.html %}
+
+## All Publications
+
+{% include search-box.html %}
 
 {% include search-info.html %}
 
-{% include section.html %}
-
-## Featured
-
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
-
-{% include section.html %}
-
-## More
-
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+{% include list.html data="citations" component="citation" style="rich" %}

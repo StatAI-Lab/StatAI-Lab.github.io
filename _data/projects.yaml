@@ -1,47 +1,57 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+# ================================================
+# StatAI Lab Projects
+# group: featured  → appears in the "Featured" section
+# no group          → appears in the "More" section
+# ================================================
+
+- title: StatBench
+  subtitle: A Benchmark for Evaluating LLM Uncertainty Quantification
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://github.com/StatAI-Lab/statbench
+  description: We develop standardized benchmarks for assessing how well large language models quantify their own uncertainty across diverse tasks.
+  repo: StatAI-Lab/statbench
   tags:
-    - resource
+    - software
+    - benchmark
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: ConfBench
+  subtitle: Conformal Prediction Toolkit for LLMs
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://github.com/StatAI-Lab/confbench
+  description: An open-source toolkit applying conformal prediction methods to calibrate uncertainty estimates in large language model outputs.
+  repo: StatAI-Lab/confbench
   tags:
     - software
+    - methodology
 
-- title: Cool Web Server
-  subtitle: a subtitle
+- title: HeteroLLM
+  subtitle: Heteroscedastic Uncertainty Estimation for Foundation Models
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://github.com/StatAI-Lab/heterollm
+  description: Methods for learning task-specific uncertainty representations in large language models under distribution shift.
+  repo: StatAI-Lab/heterollm
   tags:
     - software
+    - methodology
+
+- title: CausalPrompt
+  subtitle: Causal Inference via Prompt Engineering in LLMs
+  image: images/photo.jpg
+  link: https://github.com/StatAI-Lab/causalprompt
+  description: Exploring the capacity of large language models to perform causal inference through carefully designed prompting strategies.
+  repo: StatAI-Lab/causalprompt
+  tags:
+    - software
+    - methodology
+
+- title: LLM Inference Toolkit
+  subtitle: Efficient Statistical Inference for Large Language Model Outputs
+  image: images/photo.jpg
+  link: https://github.com/StatAI-Lab/llm-inference
+  description: A collection of statistical tools for performing valid inference on predictions made by large language models.
+  repo: StatAI-Lab/llm-inference
+  tags:
+    - software
+    - resource

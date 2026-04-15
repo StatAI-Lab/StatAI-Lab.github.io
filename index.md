@@ -1,21 +1,44 @@
 ---
 ---
 
-# Lab Website Template
+# StatAI Lab
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
+StatAI Lab is dedicated to exploring the deep integration of large language models (LLMs) and statistics.
+We focus on the applications of statistical theory in AI interpretability and uncertainty quantification,
+while also investigating how AI can better empower statistical inference.
 
 {%
   include button.html
   type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
+  link="https://github.com/StatAI-Lab"
 %}
 {%
   include button.html
   type="github"
   text="On GitHub"
-  link="greenelab/lab-website-template"
+  link="StatAI-Lab/StatAI-Lab.github.io"
+%}
+
+{% include section.html %}
+
+## Latest News
+
+<ul class="news-list">
+  {% for post in site.posts limit: 5 %}
+    <li>
+      <span class="news-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <a href="{{ post.url | relative_url }}" class="news-title">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+{%
+  include button.html
+  link="blog"
+  text="All News"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
 %}
 
 {% include section.html %}
@@ -24,11 +47,12 @@ Spend less time worrying about managing a website and citations, and more time r
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our lab investigates statistical theory in the era of large language models,
+with a particular focus on interpretability, uncertainty quantification, and AI-assisted statistical inference.
 
 {%
   include button.html
-  link="research"
+  link="projects"
   text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -40,19 +64,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="research"
-  title="Our Research"
+  link="projects"
+  title="Publications"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We develop statistical methods and computational tools for analyzing complex data,
+with emphasis on robust inference, causal discovery, and uncertainty quantification.
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
+  link="research"
+  text="Browse our research"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -63,8 +88,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include feature.html
   image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
+  link="research"
+  title="Research"
   flip=true
   style="bare"
   text=text
@@ -72,7 +97,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Meet the researchers behind StatAI Lab.
 
 {%
   include button.html
