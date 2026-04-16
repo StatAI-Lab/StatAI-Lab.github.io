@@ -12,16 +12,6 @@ Our work appears in top-tier venues across machine learning, statistics, and dat
 
 {% include section.html %}
 
-## Highlighted
-
-{% include citation.html lookup="placeholder-icml2023a" style="rich" %}
-{% include citation.html lookup="placeholder-icml2023b" style="rich" %}
-{% include citation.html lookup="placeholder-jasa2021" style="rich" %}
-{% include citation.html lookup="placeholder-ijcai21" style="rich" %}
-{% include citation.html lookup="placeholder-neurips2020" style="rich" %}
-
-{% include section.html %}
-
 ## All Publications
 
 {% include search-box.html %}

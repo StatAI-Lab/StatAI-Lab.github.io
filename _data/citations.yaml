@@ -1,146 +1,54 @@
 # ================================================
-# StatAI Lab Publications
-# Highlighted = 代表作 (扬帆代表作)
-# All others = 研究成果
+# StatAI Lab 论文列表
+# ================================================
+# 手动填写，不需要 ORCID / SerpAPI 等自动工具
+#
+# 每篇论文格式：
+# - id:        唯一标识（用 DOI 最方便，如 "doi:10.xxxx/xxxxx"，没有 DOI 就用任意字符串）
+#   title:     论文标题（完整标题）
+#   authors:   作者列表（用 - 开头的 YAML 列表格式）
+#   publisher: 发表期刊/会议
+#   date:      发表日期，格式 'YYYY-MM-DD'（或只写 'YYYY-MM'、'YYYY'）
+#   link:      论文链接（DOI 链接如 https://doi.org/xxxx，或 Google Scholar 链接）
+#   type:      paper（固定值）
 # ================================================
 
-# ---- 扬帆代表作 (Highlighted) ----
+# ---- Highlighted（代表作） ----
+# 在 Publication 页面 Highlighted 区域显示的论文
 
-- id: placeholder-icml2023a
-  title: "[ICML 2023] Uniform Convergence and Generalization in LLMs"  # TODO: verify title
-  authors:
-    - Fan Zhou
-    - et al.
-  publisher: International Conference on Machine Learning (ICML)
-  date: '2023-07-01'
-  link: ""
-  file: ICML2023a.pdf
-  type: paper
-  featured: true
+# - id: doi:10.xxxx/xxxxx
+#   title: "[会议/期刊 年份] 论文完整标题"
+#   authors:
+#     - Fan Zhou
+#     - Author Name 2
+#     - Author Name 3
+#   publisher: Nature / ICML / JASA / NeurIPS 等
+#   date: '2025-01-01'
+#   link: https://doi.org/xxxxx
+#   type: paper
 
-- id: placeholder-icml2023b
-  title: "[ICML 2023] Statistical Properties of Transformer Architectures"  # TODO: verify title
-  authors:
-    - Fan Zhou
-    - et al.
-  publisher: International Conference on Machine Learning (ICML)
-  date: '2023-07-01'
-  link: ""
-  file: ICML2023b.pdf
-  type: paper
-  featured: true
+# - id: doi:10.xxxx/xxxxx
+#   title: "[ICML 2023] Uniform Convergence in Large Language Models"
+#   authors:
+#     - Fan Zhou
+#     - et al.
+#   publisher: International Conference on Machine Learning
+#   date: '2023-07-01'
+#   link: https://doi.org/xxxxx
+#   type: paper
 
-- id: placeholder-jasa2021
-  title: "[JASA 2021] Quantile-based Uncertainty Quantification for Deep Models"  # TODO: verify title
-  authors:
-    - Fan Zhou
-    - et al.
-  publisher: Journal of the American Statistical Association
-  date: '2021-01-01'
-  link: ""
-  file: JASA2021.pdf
-  type: paper
-  featured: true
+# ---- All Publications（所有论文） ----
+# 在 Publication 页面 All 区域显示
 
-- id: placeholder-ijcai21
-  title: "[IJCAI 2021] Robust Statistical Inference with Large Language Models"  # TODO: verify title
-  authors:
-    - Fan Zhou
-    - et al.
-  publisher: International Joint Conference on Artificial Intelligence (IJCAI)
-  date: '2021-01-01'
-  link: ""
-  file: IJCAI21.pdf
-  type: paper
-  featured: true
+# 研究成果文件夹中的 PDF：
+#   Biometrics.pdf / ICDM2021.pdf / ICML2023a.pdf / ICML2023b.pdf
+#   IJCAI21.pdf / JASA2021.pdf / JASA2023.pdf / JMLR2023.pdf
+#   KDD2022.pdf / NeurIPS-2020.pdf / NeurIPS2023a.pdf / NeurIPS2023b.pdf
 
-- id: placeholder-neurips2020
-  title: "[NeurIPS 2020] Monotonic Risk Minimization for Distributionally Robust Learning"  # TODO: verify title
-  authors:
-    - Fan Zhou
-    - et al.
-  publisher: Advances in Neural Information Processing Systems (NeurIPS)
-  date: '2020-12-01'
-  link: ""
-  file: NeurIPS-2020.pdf
-  type: paper
-  featured: true
-
-# ---- 研究成果 (All publications) ----
-
-- id: placeholder-jasa2023
-  title: "[JASA 2023] TBA"  # TODO: verify title
-  authors:
-    - Fan Zhou
-    - et al.
-  publisher: Journal of the American Statistical Association
-  date: '2023-01-01'
-  link: ""
-  file: JASA2023.pdf
-  type: paper
-
-- id: placeholder-jmlr2023
-  title: "[JMLR 2023] TBA"  # TODO: verify title
-  authors:
-    - Fan Zhou
-    - et al.
-  publisher: Journal of Machine Learning Research
-  date: '2023-01-01'
-  link: ""
-  file: JMLR2023.pdf
-  type: paper
-
-- id: placeholder-neurips2023a
-  title: "[NeurIPS 2023] TBA"  # TODO: verify title
-  authors:
-    - Fan Zhou
-    - et al.
-  publisher: Advances in Neural Information Processing Systems (NeurIPS)
-  date: '2023-12-01'
-  link: ""
-  file: NeurIPS2023a.pdf
-  type: paper
-
-- id: placeholder-neurips2023b
-  title: "[NeurIPS 2023] TBA"  # TODO: verify title
-  authors:
-    - Fan Zhou
-    - et al.
-  publisher: Advances in Neural Information Processing Systems (NeurIPS)
-  date: '2023-12-01'
-  link: ""
-  file: NeurIPS2023b.pdf
-  type: paper
-
-- id: placeholder-kdd2022
-  title: "[KDD 2022] TBA"  # TODO: verify title
-  authors:
-    - Fan Zhou
-    - et al.
-  publisher: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  date: '2022-08-01'
-  link: ""
-  file: KDD2022.pdf
-  type: paper
-
-- id: placeholder-icdm2021
-  title: "[ICDM 2021] TBA"  # TODO: verify title
-  authors:
-    - Fan Zhou
-    - et al.
-  publisher: IEEE International Conference on Data Mining
-  date: '2021-11-01'
-  link: ""
-  file: ICDM2021.pdf
-  type: paper
-
-- id: placeholder-biometrics
-  title: "[Biometrics] TBA"  # TODO: verify title
-  authors:
-    - Fan Zhou
-    - et al.
-  publisher: Biometrics
-  date: '2020-01-01'
-  link: ""
-  file: Biometrics.pdf
-  type: paper
+# - id: doi:10.xxxx/xxxxx
+#   title: ""
+#   authors: []
+#   publisher: ""
+#   date: ''
+#   link: ""
+#   type: paper
