@@ -121,19 +121,8 @@ We are always open to collaborations and inquiries from researchers and students
 
 {%
   include button.html
-  type="email"
-  text="zhoufan@mail.shufe.edu.cn"
-  link="zhoufan@mail.shufe.edu.cn"
-%}
-{%
-  include button.html
-  type="email"
-  text="statai@163.com"
-  link="statai@163.com"
-%}
-{%
-  include button.html
-  type="address"
-  tooltip="Shanghai University of Finance and Economics"
-  link="https://www.google.com/maps/search/Shanghai+University+of+Finance+and+Economics"
+  type="external"
+  text="See the requirements here"
+  link="contact"
+  tooltip=""
 %}
