@@ -9,14 +9,9 @@ while also investigating how AI can better empower statistical inference.
 
 {%
   include button.html
-  type="docs"
-  link="https://github.com/StatAI-Lab"
-%}
-{%
-  include button.html
   type="github"
   text="On GitHub"
-  link="StatAI-Lab/StatAI-Lab.github.io"
+  link="StatAI-Lab"
 %}
 
 {% include section.html %}
@@ -63,7 +58,7 @@ with a particular focus on interpretability, uncertainty quantification, and AI-
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  icon="fa-solid fa-book"
   link="projects"
   title="Publications"
   text=text
@@ -87,7 +82,7 @@ with emphasis on robust inference, causal discovery, and uncertainty quantificat
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  icon="fa-solid fa-wrench"
   link="research"
   title="Research"
   flip=true
@@ -112,8 +107,33 @@ Meet the researchers behind StatAI Lab.
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  icon="fa-solid fa-user-group"
   link="team"
   title="Our Team"
   text=text
+%}
+
+{% include section.html %}
+
+## Contact Us
+
+We are always open to collaborations and inquiries from researchers and students interested in the intersection of LLMs and statistics.
+
+{%
+  include button.html
+  type="email"
+  text="zhoufan@mail.shufe.edu.cn"
+  link="zhoufan@mail.shufe.edu.cn"
+%}
+{%
+  include button.html
+  type="email"
+  text="statai@163.com"
+  link="statai@163.com"
+%}
+{%
+  include button.html
+  type="address"
+  tooltip="Shanghai University of Finance and Economics"
+  link="https://www.google.com/maps/search/Shanghai+University+of+Finance+and+Economics"
 %}

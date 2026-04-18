@@ -1,106 +1,297 @@
-# ================================================
-# StatAI Lab 论文列表
-# ================================================
-# 手动填写，不需要 ORCID / SerpAPI 等自动工具
-#
-# 每篇论文格式：
-# - id:        唯一标识（用 DOI 最方便，如 "doi:10.xxxx/xxxxx"，没有 DOI 就用任意字符串）
-#   title:     论文标题（完整标题）
-#   authors:   作者列表（用 - 开头的 YAML 列表格式）
-#   publisher: 发表期刊/会议
-#   date:      发表日期，格式 'YYYY-MM-DD'（或只写 'YYYY-MM'、'YYYY'）
-#   link:      论文链接（DOI 链接如 https://doi.org/xxxx，或论文页面链接）
-#   type:      paper（固定值）
-# ================================================
-
-# ---- 论文示例（请替换为真实信息） ----
-
-- id: placeholder-icml2023a
-  title: "[ICML 2023] Uniform Convergence and Generalization in Large Language Models"
+- id: doi:2026.eacl-long.161
+  title: 'Breach in the Shield: Unveiling the Vulnerabilities of Large Language Models'
   authors:
-    - Fan Zhou
-    - et al.
-  publisher: International Conference on Machine Learning (ICML)
-  date: '2023-07-01'
-  link: ""
+  - Runpeng Dai
+  - Run Yang
+  - Fan Zhou
+  - Hongtu Zhu
+  publisher: EACL-Long
+  date: '2026-01-01'
+  link: https://aclanthology.org/2026.eacl-long.161/
   type: paper
-
-- id: placeholder-jasa2021
-  title: "[JASA 2021] Quantile-based Uncertainty Quantification for Deep Neural Networks"
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://aclanthology.org/2026.eacl-long.161/
+- id: doi:ICDM51629.2021.00202
+  title: Multi-Objective Distributional Reinforcement Learning for Large-Scale Order
+    Dispatching
   authors:
-    - Fan Zhou
-    - et al.
-  publisher: Journal of the American Statistical Association
+  - Fan Zhou
+  - Chenfan Lu
+  - Xiaocheng Tang
+  - Fan Zhang
+  - Zhiwei Qin
+  - Jieping Ye
+  - Hongtu Zhu
+  publisher: ICDM
   date: '2021-01-01'
-  link: ""
+  link: https://doi.org/10.1109/ICDM51629.2021.00202
   type: paper
-
-- id: placeholder-ijcai21
-  title: "[IJCAI 2021] Robust Statistical Inference with Large Language Models"
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://doi.org/10.1109/ICDM51629.2021.00202
+- id: inproceedings:2025
+  title: Enhancing Prediction Performance through Influence Measure
   authors:
-    - Fan Zhou
-    - et al.
-  publisher: International Joint Conference on Artificial Intelligence (IJCAI)
+  - Shuguang Yu
+  - Wenqian Xu
+  - Xinyi Zhou
+  - Xuechun Wang
+  - Hongtu Zhu
+  - Fan Zhou
+  publisher: ICLR
+  date: '2025-01-01'
+  link: https://proceedings.iclr.cc/paper_files/paper/2025/file/194d93e09eabcb9e2837de07d0be48ce-Paper-Conference.pdf
+  type: paper
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://proceedings.iclr.cc/paper_files/paper/2025/file/194d93e09eabcb9e2837de07d0be48ce-Paper-Conference.pdf
+- id: inproceedings:2023
+  title: Variance Control for Distributional Reinforcement Learning
+  authors:
+  - Qi Kuang
+  - Zhoufan Zhu
+  - Liwen Zhang
+  - Fan Zhou
+  publisher: ICML
+  date: '2023-01-01'
+  link: https://proceedings.mlr.press/v202/kuang23a.html
+  type: paper
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://proceedings.mlr.press/v202/kuang23a.html
+- id: inproceedings:2023
+  title: Adversarial Learning of Distributional Reinforcement Learning
+  authors:
+  - Yang Sui
+  - Yukun Huang
+  - Hongtu Zhu
+  - Fan Zhou
+  publisher: ICML
+  date: '2023-01-01'
+  link: https://proceedings.mlr.press/v202/sui23a.html
+  type: paper
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://proceedings.mlr.press/v202/sui23a.html
+- id: doi:476
+  title: Non-decreasing Quantile Function Network with Efficient Exploration for Distributional
+    Reinforcement Learning
+  authors:
+  - Fan Zhou
+  - Zhoufan Zhu
+  - Qi Kuang
+  - Liwen Zhang
+  publisher: IJCAI
   date: '2021-01-01'
-  link: ""
+  link: https://doi.org/10.24963/ijcai.2021/476
   type: paper
-
-- id: placeholder-neurips2020
-  title: "[NeurIPS 2020] Monotonic Risk Minimization for Distributionally Robust Learning"
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://doi.org/10.24963/ijcai.2021/476
+- id: doi:01621459.2021.1898409
+  title: Graph-Based Equilibrium Metrics for Dynamic Supply–Demand Systems With Applications
+    to Ride-sourcing Platforms
   authors:
-    - Fan Zhou
-    - et al.
-  publisher: Advances in Neural Information Processing Systems (NeurIPS)
-  date: '2020-12-01'
-  link: ""
+  - Fan Zhou
+  - Shikai Luo
+  - Xiaohu Qie
+  - Jieping Ye
+  - Hongtu Zhu
+  publisher: JASA
+  date: '2021-01-01'
+  link: https://doi.org/10.1080/01621459.2021.1898409
   type: paper
-
-- id: placeholder-jasa2023
-  title: "[JASA 2023] TBA"
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://doi.org/10.1080/01621459.2021.1898409
+- id: doi:01621459.2023.2238942
+  title: Value Enhancement of Reinforcement Learning via Efficient and Robust Trust
+    Region Optimization
   authors:
-    - Fan Zhou
-    - et al.
-  publisher: Journal of the American Statistical Association
+  - Chengchun Shi
+  - Zhengling Qi
+  - Jianing Wang
+  - Fan Zhou
+  publisher: JASA
+  date: '2024-01-01'
+  link: https://doi.org/10.1080/01621459.2023.2238942
+  type: paper
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://doi.org/10.1080/01621459.2023.2238942
+- id: doi:10618600.2026.2618112
+  title: Spatio-Temporal Prediction of Fine-Grained Origin-Destination Matrices with
+    Applications in Ridesharing
+  authors:
+  - Run Yang
+  - Runpeng Dai
+  - Siran Gao
+  - Xiaocheng Tang
+  - Fan Zhou
+  - Hongtu Zhu
+  publisher: JCGS
+  date: '2026-01-01'
+  link: https://doi.org/10.1080/10618600.2026.2618112
+  type: paper
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://doi.org/10.1080/10618600.2026.2618112
+- id: article:2023
+  title: Over-parameterized deep nonparametric regression for dependent data with
+    its applications to reinforcement learning
+  authors:
+  - Xingdong Feng
+  - Yuling Jiao
+  - Lican Kang
+  - Baqun Zhang
+  - Fan Zhou
+  publisher: JMLR
   date: '2023-01-01'
-  link: ""
   type: paper
-
-- id: placeholder-jmlr2023
-  title: "[JMLR 2023] TBA"
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://jmlr.org/papers/volume24/22-0865/22-0865.pdf
+  link: https://jmlr.org/papers/volume24/22-0865/22-0865.pdf
+- id: doi:3534678.3539341
+  title: 'MDP2 Forest: A Constrained Continuous Multi-dimensional Policy Optimization
+    Approach for Short-video Recommendation'
   authors:
-    - Fan Zhou
-    - et al.
-  publisher: Journal of Machine Learning Research
+  - Sizhe Yu
+  - Ziyi Liu
+  - Shixiang Wan
+  - Jia Zheng
+  - Zang Li
+  - Fan Zhou
+  publisher: KDD
+  date: '2022-01-01'
+  link: https://doi.org/10.1145/3534678.3539341
+  type: paper
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://doi.org/10.1145/3534678.3539341
+- id: doi:TNNLS.2022.3217189
+  title: Monotonic Quantile Network for Worst-Case Offline Reinforcement Learning
+  authors:
+  - Chenjia Bai
+  - Ting Xiao
+  - Zhoufan Zhu
+  - Lingxiao Wang
+  - Fan Zhou
+  - Animesh Garg
+  - Bin He
+  - Peng Liu
+  - Zhaoran Wang
+  publisher: IEEE Transactions on Neural Networks and Learning Systems
+  date: '2024-01-01'
+  link: https://doi.org/10.1109/TNNLS.2022.3217189
+  type: paper
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://doi.org/10.1109/TNNLS.2022.3217189
+- id: doi:079017-2485
+  title: Two-way Deconfounder for Off-policy Evaluation in Causal Reinforcement Learning
+  authors:
+  - Shuguang Yu
+  - Shuxing Fang
+  - Ruixin Peng
+  - Zhengling Qi
+  - Fan Zhou
+  - Chengchun Shi
+  publisher: NIPS
+  date: '2024-01-01'
+  link: https://proceedings.neurips.cc/paper_files/paper/2024/file/8ecf25e3a462e9bb1e29662dfe7258fe-Paper-Conference.pdf
+  type: paper
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://proceedings.neurips.cc/paper_files/paper/2024/file/8ecf25e3a462e9bb1e29662dfe7258fe-Paper-Conference.pdf
+- id: inproceedings:2025
+  title: '{Breaking the Order Barrier: Off-Policy Evaluation for Confounded POMDPs'
+  authors:
+  - Qi Kuang
+  - Jiayi Wang
+  - Fan Zhou
+  - Zhengling Qi
+  publisher: NIPS
+  date: '2025-01-01'
+  link: https://mlanthology.org/neurips/2025/kuang2025neurips-breaking/
+  type: paper
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://mlanthology.org/neurips/2025/kuang2025neurips-breaking/
+- id: inbook:2019
+  title: Graph-based semi-supervised learning with nonignorable nonresponses
+  authors:
+  - Fan Zhou
+  - Tengfei Li
+  - Haibo Zhou
+  - Jieping Ye
+  - Hongtu Zhu
+  publisher: NIPS
+  date: '2019-01-01'
+  type: paper
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://proceedings.neurips.cc/paper/2019/file/42547f5a44d87da3bc40ee5d09624606-Paper.pdf
+  link: https://proceedings.neurips.cc/paper/2019/file/42547f5a44d87da3bc40ee5d09624606-Paper.pdf
+- id: inproceedings:2020
+  title: Non-crossing quantile regression for deep reinforcement learning
+  authors:
+  - Fan Zhou
+  - Jianing Wang
+  - Xingdong Feng
+  publisher: NIPS
+  date: '2020-01-01'
+  type: paper
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://proceedings.neurips.cc/paper/2020/file/b6f8dc086b2d60c5856e4ff517060392-Paper.pdf
+  link: https://proceedings.neurips.cc/paper/2020/file/b6f8dc086b2d60c5856e4ff517060392-Paper.pdf
+- id: doi:arXiv.2306.13210
+  title: Directional diffusion models for graph representation learning
+  authors:
+  - Run Yang
+  - Yuling Yang
+  - Fan Zhou
+  - Qiang Sun
+  publisher: NIPS
   date: '2023-01-01'
-  link: ""
+  link: https://doi.org/10.48550/arXiv.2306.13210
   type: paper
-
-- id: placeholder-neurips2023
-  title: "[NeurIPS 2023] TBA"
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://doi.org/10.48550/arXiv.2306.13210
+- id: article:2023
+  title: Optimal Treatment Allocation for Efficient Policy Evaluation in Sequential
+    Decision Making
   authors:
-    - Fan Zhou
-    - et al.
-  publisher: Advances in Neural Information Processing Systems (NeurIPS)
-  date: '2023-12-01'
-  link: ""
+  - Ting Li
+  - Chengchun Shi
+  - Jianing Wang
+  - Fan Zhou
+  - Hongtu Zhu
+  publisher: NIPS
+  date: '2023-01-01'
+  link: https://jmlr.org/papers/volume24/22-0865/22-0865.pdf
   type: paper
-
-- id: placeholder-kdd2022
-  title: "[KDD 2022] TBA"
-  authors:
-    - Fan Zhou
-    - et al.
-  publisher: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
-  date: '2022-08-01'
-  link: ""
-  type: paper
-
-- id: placeholder-icdm2021
-  title: "[ICDM 2021] TBA"
-  authors:
-    - Fan Zhou
-    - et al.
-  publisher: IEEE International Conference on Data Mining
-  date: '2021-11-01'
-  link: ""
-  type: paper
+  buttons:
+  - type: pdf
+    text: PDF
+    link: https://jmlr.org/papers/volume24/22-0865/22-0865.pdf

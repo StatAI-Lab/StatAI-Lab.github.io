@@ -1,8 +1,5 @@
 ---
 title: News
-nav:
-  order: 4
-  tooltip: Recent updates
 ---
 
 # {% include icon.html icon="fa-solid fa-newspaper" %}News

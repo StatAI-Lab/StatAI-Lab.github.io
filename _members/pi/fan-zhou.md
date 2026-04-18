@@ -13,6 +13,6 @@ links:
   cv: /assets/cv/cv_FanZhou.pdf
 ---
 
-Fan Zhou is an associate professor at Shanghai University of Finance and Economics.
-His research focuses on the intersection of large language models and statistical inference,
-with particular interests in uncertainty quantification, interpretability, and robust machine learning.
+I am an Associate Professor in the School of Statistics and Data Science at Shanghai University of Finance and Economics (SHUFE). I am a Young Scholar of the Ministry of Education. I received my Ph.D. in Biostatistics from the University of North Carolina at Chapel Hill. I currently serve as an editorial board member of the Journal of the American Statistical Association (JASA). My research focuses on developing statistical and machine learning methods for complex data, with applications in reinforcement learning, spatiotemporal networks, and causal inference.
+
+I have published numerous papers in top statistics and machine learning venues including JASA, JMLR, NeurIPS, ICML, and ICLR. I was awarded the New Researcher Award at the International Chinese Statistical Association (ICSA) Conference, the James E. Grizzle Distinguished Alumnus Award, and the Barry H. Margolin Award from UNC-Chapel Hill.

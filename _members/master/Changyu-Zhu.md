@@ -8,4 +8,4 @@ links:
   email: zcy20030603@126.com
 ---
 
-Changyu Zhu is a master student interested in agentic system design, application, software engineering, coffee, gin and playing badminton. 
+Changyu Zhu is a master student interested in agentic system design, application, software engineering, coffee, gin and playing badminton.

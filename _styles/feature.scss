@@ -41,12 +41,26 @@ $wrap: 800px;
   flex-direction: row-reverse;
 }
 
+.feature-icon {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  aspect-ratio: 3 / 2;
+}
+
+.feature-icon i {
+  font-size: 80px;
+  color: var(--text-muted);
+}
+
 @media (max-width: $wrap) {
   .feature {
     flex-direction: column !important;
   }
 
-  .feature-image {
+  .feature-image, .feature-icon {
     width: 100%;
     max-width: calc($wrap / 2);
   }
