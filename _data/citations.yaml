@@ -5,14 +5,15 @@
   - Run Yang
   - Fan Zhou
   - Hongtu Zhu
-  publisher: EACL-Long
+  publisher: European Chapter of the Association for Computational Linguistics (EACL)
   date: '2026-01-01'
-  link: https://aclanthology.org/2026.eacl-long.161/
+  link: /assets/publications/2026.eacl-long.161.pdf
   type: paper
+  image: images/publication/2026.eacl-long.161.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://aclanthology.org/2026.eacl-long.161/
+    link: /assets/publications/2026.eacl-long.161.pdf
 - id: doi:ICDM51629.2021.00202
   title: Multi-Objective Distributional Reinforcement Learning for Large-Scale Order
     Dispatching
@@ -24,14 +25,15 @@
   - Zhiwei Qin
   - Jieping Ye
   - Hongtu Zhu
-  publisher: ICDM
+  publisher: IEEE International Conference on Data Mining (ICDM)
   date: '2021-01-01'
-  link: https://doi.org/10.1109/ICDM51629.2021.00202
+  link: /assets/publications/ICDM2021.pdf
   type: paper
+  image: images/publication/ICDM2021.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://doi.org/10.1109/ICDM51629.2021.00202
+    link: /assets/publications/ICDM2021.pdf
 - id: inproceedings:2025
   title: Enhancing Prediction Performance through Influence Measure
   authors:
@@ -41,14 +43,15 @@
   - Xuechun Wang
   - Hongtu Zhu
   - Fan Zhou
-  publisher: ICLR
+  publisher: International Conference on Learning Representations (ICLR)
   date: '2025-01-01'
-  link: https://proceedings.iclr.cc/paper_files/paper/2025/file/194d93e09eabcb9e2837de07d0be48ce-Paper-Conference.pdf
+  link: /assets/publications/ICLR2025.pdf
   type: paper
+  image: images/publication/ICLR2025.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://proceedings.iclr.cc/paper_files/paper/2025/file/194d93e09eabcb9e2837de07d0be48ce-Paper-Conference.pdf
+    link: /assets/publications/ICLR2025.pdf
 - id: inproceedings:2023
   title: Variance Control for Distributional Reinforcement Learning
   authors:
@@ -56,14 +59,15 @@
   - Zhoufan Zhu
   - Liwen Zhang
   - Fan Zhou
-  publisher: ICML
+  publisher: International Conference on Machine Learning (ICML)
   date: '2023-01-01'
-  link: https://proceedings.mlr.press/v202/kuang23a.html
+  link: /assets/publications/ICML2023a.pdf
   type: paper
+  image: images/publication/ICML2023a.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://proceedings.mlr.press/v202/kuang23a.html
+    link: /assets/publications/ICML2023a.pdf
 - id: inproceedings:2023
   title: Adversarial Learning of Distributional Reinforcement Learning
   authors:
@@ -71,14 +75,15 @@
   - Yukun Huang
   - Hongtu Zhu
   - Fan Zhou
-  publisher: ICML
+  publisher: International Conference on Machine Learning (ICML)
   date: '2023-01-01'
-  link: https://proceedings.mlr.press/v202/sui23a.html
+  link: /assets/publications/ICML2023b.pdf
   type: paper
+  image: images/publication/ICML2023b.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://proceedings.mlr.press/v202/sui23a.html
+    link: /assets/publications/ICML2023b.pdf
 - id: doi:476
   title: Non-decreasing Quantile Function Network with Efficient Exploration for Distributional
     Reinforcement Learning
@@ -87,14 +92,15 @@
   - Zhoufan Zhu
   - Qi Kuang
   - Liwen Zhang
-  publisher: IJCAI
+  publisher: International Joint Conference on Artificial Intelligence (IJCAI)
   date: '2021-01-01'
-  link: https://doi.org/10.24963/ijcai.2021/476
+  link: /assets/publications/IJCAI21.pdf
   type: paper
+  image: images/publication/IJCAI21.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://doi.org/10.24963/ijcai.2021/476
+    link: /assets/publications/IJCAI21.pdf
 - id: doi:01621459.2021.1898409
   title: Graph-Based Equilibrium Metrics for Dynamic Supply–Demand Systems With Applications
     to Ride-sourcing Platforms
@@ -104,14 +110,15 @@
   - Xiaohu Qie
   - Jieping Ye
   - Hongtu Zhu
-  publisher: JASA
+  publisher: Journal of the American Statistical Association (JASA)
   date: '2021-01-01'
-  link: https://doi.org/10.1080/01621459.2021.1898409
+  link: /assets/publications/JASA2021.pdf
   type: paper
+  image: images/publication/JASA2021.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://doi.org/10.1080/01621459.2021.1898409
+    link: /assets/publications/JASA2021.pdf
 - id: doi:01621459.2023.2238942
   title: Value Enhancement of Reinforcement Learning via Efficient and Robust Trust
     Region Optimization
@@ -120,14 +127,15 @@
   - Zhengling Qi
   - Jianing Wang
   - Fan Zhou
-  publisher: JASA
+  publisher: Journal of the American Statistical Association (JASA)
   date: '2024-01-01'
-  link: https://doi.org/10.1080/01621459.2023.2238942
+  link: /assets/publications/JASA2024.pdf
   type: paper
+  image: images/publication/JASA2024.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://doi.org/10.1080/01621459.2023.2238942
+    link: /assets/publications/JASA2024.pdf
 - id: doi:10618600.2026.2618112
   title: Spatio-Temporal Prediction of Fine-Grained Origin-Destination Matrices with
     Applications in Ridesharing
@@ -138,14 +146,15 @@
   - Xiaocheng Tang
   - Fan Zhou
   - Hongtu Zhu
-  publisher: JCGS
+  publisher: Journal of Computational and Graphical Statistics (JCGS)
   date: '2026-01-01'
-  link: https://doi.org/10.1080/10618600.2026.2618112
+  link: /assets/publications/JCGS接收.pdf
   type: paper
+  image: images/publication/JCGS接收.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://doi.org/10.1080/10618600.2026.2618112
+    link: /assets/publications/JCGS接收.pdf
 - id: article:2023
   title: Over-parameterized deep nonparametric regression for dependent data with
     its applications to reinforcement learning
@@ -155,14 +164,15 @@
   - Lican Kang
   - Baqun Zhang
   - Fan Zhou
-  publisher: JMLR
+  publisher: Journal of Machine Learning Research (JMLR)
   date: '2023-01-01'
   type: paper
+  image: images/publication/JMLR2023.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://jmlr.org/papers/volume24/22-0865/22-0865.pdf
-  link: https://jmlr.org/papers/volume24/22-0865/22-0865.pdf
+    link: /assets/publications/JMLR2023.pdf
+  link: /assets/publications/JMLR2023.pdf
 - id: doi:3534678.3539341
   title: 'MDP2 Forest: A Constrained Continuous Multi-dimensional Policy Optimization
     Approach for Short-video Recommendation'
@@ -173,14 +183,15 @@
   - Jia Zheng
   - Zang Li
   - Fan Zhou
-  publisher: KDD
+  publisher: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)
   date: '2022-01-01'
-  link: https://doi.org/10.1145/3534678.3539341
+  link: /assets/publications/MDP2Forest.pdf
   type: paper
+  image: images/publication/MDP2Forest.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://doi.org/10.1145/3534678.3539341
+    link: /assets/publications/MDP2Forest.pdf
 - id: doi:TNNLS.2022.3217189
   title: Monotonic Quantile Network for Worst-Case Offline Reinforcement Learning
   authors:
@@ -195,12 +206,13 @@
   - Zhaoran Wang
   publisher: IEEE Transactions on Neural Networks and Learning Systems
   date: '2024-01-01'
-  link: https://doi.org/10.1109/TNNLS.2022.3217189
+  link: /assets/publications/Monotonic_Quantile_Network_for_Worst-Case_Offline_Reinforcement_Learning.pdf
   type: paper
+  image: images/publication/Monotonic_Quantile_Network_for_Worst-Case_Offline_Reinforcement_Learning.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://doi.org/10.1109/TNNLS.2022.3217189
+    link: /assets/publications/Monotonic_Quantile_Network_for_Worst-Case_Offline_Reinforcement_Learning.pdf
 - id: doi:079017-2485
   title: Two-way Deconfounder for Off-policy Evaluation in Causal Reinforcement Learning
   authors:
@@ -210,14 +222,15 @@
   - Zhengling Qi
   - Fan Zhou
   - Chengchun Shi
-  publisher: NIPS
+  publisher: Conference on Neural Information Processing Systems (NeurIPS)
   date: '2024-01-01'
-  link: https://proceedings.neurips.cc/paper_files/paper/2024/file/8ecf25e3a462e9bb1e29662dfe7258fe-Paper-Conference.pdf
+  link: /assets/publications/NIPS2024.pdf
   type: paper
+  image: images/publication/NIPS2024.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://proceedings.neurips.cc/paper_files/paper/2024/file/8ecf25e3a462e9bb1e29662dfe7258fe-Paper-Conference.pdf
+    link: /assets/publications/NIPS2024.pdf
 - id: inproceedings:2025
   title: '{Breaking the Order Barrier: Off-Policy Evaluation for Confounded POMDPs'
   authors:
@@ -225,14 +238,15 @@
   - Jiayi Wang
   - Fan Zhou
   - Zhengling Qi
-  publisher: NIPS
+  publisher: Conference on Neural Information Processing Systems (NeurIPS)
   date: '2025-01-01'
-  link: https://mlanthology.org/neurips/2025/kuang2025neurips-breaking/
+  link: /assets/publications/NIPS2025.pdf
   type: paper
+  image: images/publication/NIPS2025.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://mlanthology.org/neurips/2025/kuang2025neurips-breaking/
+    link: /assets/publications/NIPS2025.pdf
 - id: inbook:2019
   title: Graph-based semi-supervised learning with nonignorable nonresponses
   authors:
@@ -241,28 +255,30 @@
   - Haibo Zhou
   - Jieping Ye
   - Hongtu Zhu
-  publisher: NIPS
+  publisher: Conference on Neural Information Processing Systems (NeurIPS)
   date: '2019-01-01'
   type: paper
+  image: images/publication/NeurIPS-2019.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://proceedings.neurips.cc/paper/2019/file/42547f5a44d87da3bc40ee5d09624606-Paper.pdf
-  link: https://proceedings.neurips.cc/paper/2019/file/42547f5a44d87da3bc40ee5d09624606-Paper.pdf
+    link: /assets/publications/NeurIPS-2019.pdf
+  link: /assets/publications/NeurIPS-2019.pdf
 - id: inproceedings:2020
   title: Non-crossing quantile regression for deep reinforcement learning
   authors:
   - Fan Zhou
   - Jianing Wang
   - Xingdong Feng
-  publisher: NIPS
+  publisher: Conference on Neural Information Processing Systems (NeurIPS)
   date: '2020-01-01'
   type: paper
+  image: images/publication/NeurIPS-2020.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://proceedings.neurips.cc/paper/2020/file/b6f8dc086b2d60c5856e4ff517060392-Paper.pdf
-  link: https://proceedings.neurips.cc/paper/2020/file/b6f8dc086b2d60c5856e4ff517060392-Paper.pdf
+    link: /assets/publications/NeurIPS-2020.pdf
+  link: /assets/publications/NeurIPS-2020.pdf
 - id: doi:arXiv.2306.13210
   title: Directional diffusion models for graph representation learning
   authors:
@@ -270,14 +286,15 @@
   - Yuling Yang
   - Fan Zhou
   - Qiang Sun
-  publisher: NIPS
+  publisher: Conference on Neural Information Processing Systems (NeurIPS)
   date: '2023-01-01'
-  link: https://doi.org/10.48550/arXiv.2306.13210
+  link: /assets/publications/NeurIPS2023a.pdf
   type: paper
+  image: images/publication/NeurIPS2023a.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://doi.org/10.48550/arXiv.2306.13210
+    link: /assets/publications/NeurIPS2023a.pdf
 - id: article:2023
   title: Optimal Treatment Allocation for Efficient Policy Evaluation in Sequential
     Decision Making
@@ -287,11 +304,12 @@
   - Jianing Wang
   - Fan Zhou
   - Hongtu Zhu
-  publisher: NIPS
+  publisher: Conference on Neural Information Processing Systems (NeurIPS)
   date: '2023-01-01'
-  link: https://jmlr.org/papers/volume24/22-0865/22-0865.pdf
+  link: /assets/publications/NeurIPS2023b.pdf
   type: paper
+  image: images/publication/NeurIPS2023b.jpg
   buttons:
   - type: pdf
     text: PDF
-    link: https://jmlr.org/papers/volume24/22-0865/22-0865.pdf
+    link: /assets/publications/NeurIPS2023b.pdf

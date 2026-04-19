@@ -7,50 +7,73 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Research
 
-Our research spans the intersection of large language models and statistical inference,
-with a focus on developing principled methods for uncertainty quantification, interpretability,
-and robust decision-making in AI systems.
+Our research spans the intersection of statistical theory, machine learning, and large language models,
+with a focus on developing principled methods for robust decision-making, interpretability,
+and uncertainty quantification in AI systems.
 
 {% include section.html %}
 
-## AI for Statistics
+{%
+  include feature.html
+  image="images/research/ai-for-statistics.jpg"
+  title="AI for Statistics"
+%}
 
-Large language models (LLMs) have demonstrated remarkable capabilities in natural language understanding and generation. We investigate how statistical principles can enhance the reliability, interpretability, and uncertainty quantification of LLMs, and conversely, how LLMs can be leveraged to improve statistical analysis and inference in complex data scenarios. Our work explores prompt-based statistical reasoning, LLM-assisted hypothesis testing, and robust estimation methods augmented by foundation models.
-
-{% include section.html %}
-
-## Methodology and Theory of Reinforcement Learning
-
-We develop rigorous methodological and theoretical foundations for reinforcement learning (RL), with a focus on off-policy evaluation, robust RL under distribution shift, and sample-efficient learning. Our research addresses fundamental questions in Markov decision processes, including policy optimization with function approximation, exploration-exploitation trade-offs, and regret bounds in complex environments.
+We investigate how statistical principles can enhance the reliability and interpretability of large language models, and conversely, how LLMs can be leveraged to improve statistical analysis. Our work spans LLM security and robustness ([Breach in the Shield, EACL 2026](/assets/publications/2026.eacl-long.161.pdf)) and AI-augmented statistical prediction ([Enhancing Prediction Performance through Influence Measure, ICLR 2025](/assets/publications/ICLR2025.pdf)).
 
 {% include section.html %}
 
-## Two-Sided Market
+{%
+  include feature.html
+  image="images/research/rl-methodology-theory.jpg"
+  title="Methodology and Theory of Reinforcement Learning"
+%}
 
-We study machine learning and statistical methods for problems arising in two-sided markets, including matching platforms, recommendation systems, and auction design. Our work applies causal inference and stochastic optimization techniques to understand user behavior, optimize market outcomes, and characterize equilibrium properties in platforms with strategic agents.
-
-{% include section.html %}
-
-## Uncertainty Quantification
-
-Reliable uncertainty estimation is critical for trustworthy AI. We develop scalable Bayesian and non-Bayesian methods for quantifying uncertainty in deep learning models, including conformal prediction, ensemble methods, and heteroscedastic regression. Our research spans uncertainty in LLMs, out-of-distribution detection, and uncertainty-aware decision-making in high-stakes applications.
+We develop rigorous methodological and theoretical foundations for reinforcement learning, with a focus on off-policy evaluation, robust RL under distribution shift, and sample-efficient learning. Representative works include variance control and adversarial learning for distributional RL ([Variance Control, ICML 2023](/assets/publications/ICML2023a.pdf); [Adversarial Learning of DRL, ICML 2023](/assets/publications/ICML2023b.pdf)), quantile-based exploration ([Non-decreasing Quantile Function Network, IJCAI 2021](/assets/publications/IJCAI21.pdf); [Monotonic Quantile Network, IEEE TNNLS 2024](/assets/publications/Monotonic_Quantile_Network_for_Worst-Case_Offline_Reinforcement_Learning.pdf)), and non-crossing quantile regression for deep RL ([NeurIPS 2020](/assets/publications/NeurIPS-2020.pdf)).
 
 {% include section.html %}
 
-## Analysis of Graph and Network Data
+{%
+  include feature.html
+  image="images/research/two-sided-market.jpg"
+  title="Two-Sided Market & Platform Optimization"
+%}
 
-Graph-structured data is ubiquitous in modern machine learning. We develop statistical methods for analyzing complex networks, including graph neural networks, graph matching, and network tomography. Our work focuses on inferential guarantees for graph statistics, robust graph classification under noise, and applications to biological networks and social networks.
+We study machine learning and statistical methods for two-sided markets, including ride-sharing platforms and recommendation systems. Work includes equilibrium analysis for supply-demand systems ([Graph-Based Equilibrium Metrics, JASA 2021](/assets/publications/JASA2021.pdf)), spatio-temporal OD matrix prediction ([JCGS 2026](/assets/publications/JCGS接收.pdf)), and constrained policy optimization for recommendation ([MDP2 Forest, KDD 2022](/assets/publications/MDP2Forest.pdf)).
 
 {% include section.html %}
 
-## Softwares, packages and more
+{%
+  include feature.html
+  image="images/research/uncertainty-quantification.jpg"
+  title="Off-Policy Evaluation & Uncertainty Quantification"
+%}
 
-We are glad to introduce our brand new agentic statisitical proving system, StatProver:
+Reliable uncertainty estimation and off-policy evaluation are central to data-driven decision-making. We develop methods for off-policy evaluation in confounded environments ([Two-way Deconfounder, NeurIPS 2024](/assets/publications/NIPS2024.pdf); [Breaking the Order Barrier, NeurIPS 2025](/assets/publications/NIPS2025.pdf)), robust trust region optimization ([Value Enhancement, JASA 2024](/assets/publications/JASA2024.pdf)), deep nonparametric regression for dependent data ([JMLR 2023](/assets/publications/JMLR2023.pdf)), and optimal treatment allocation in sequential decisions ([NeurIPS 2023](/assets/publications/NeurIPS2023b.pdf)).
 
-- **[StatProver](https://statprover.com)** — Statistical Proof Assistant — Clarify the Problem, Find References, Skeleton Steps, Write the Proof.
+{% include section.html %}
 
+{%
+  include feature.html
+  image="images/research/graph-network-analysis.jpg"
+  title="Graph Representation Learning"
+%}
 
-We have developed the largest high-level benchmark datasets for evaluating statistical reasoning capabilities of large language models:
+Graph-structured data is ubiquitous in modern machine learning. We develop statistical methods for graph analysis, including diffusion-based graph representation learning ([Directional Diffusion Models, NeurIPS 2023](/assets/publications/NeurIPS2023a.pdf)) and graph-based semi-supervised learning with nonignorable nonresponses ([NeurIPS 2019](/assets/publications/NeurIPS-2019.pdf)).
+
+{% include section.html %}
+
+## Softwares, Packages and More
+
+{%
+  include feature.html
+  image="images/research/statprover.jpg"
+  title="StatProver — Agentic Statistical Proof Assistant"
+%}
+
+We are glad to introduce **[StatProver](https://statprover.com)**, a brand new agentic statistical proving system. StatProver helps users clarify the problem, find references, outline skeleton steps, and write the proof. Learn more at **[https://statprover.com](https://statprover.com)**
+
+We have also developed benchmark datasets for evaluating the statistical reasoning capabilities of large language models:
 
 - **[StatEval-Foundational-Knowledge](https://huggingface.co/datasets/0v01111/StatEval-Foundational-knowledge)** — Foundational statistical knowledge evaluation benchmark
 - **[StatEval-Statistical-Research](https://huggingface.co/datasets/0v01111/StatEval-Statistical-Research)** — Statistical research capabilities evaluation benchmark

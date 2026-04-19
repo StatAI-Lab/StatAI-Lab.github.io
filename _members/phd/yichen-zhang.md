@@ -1,7 +1,8 @@
 ---
 name: Yichen Zhang
-image: images/master/yichen-zhang.jpg
-role: master
+image: images/phd/yichen-zhang.jpg
+role: phd
+
 affiliation: Shanghai University of Finance and Economics
 links:
   github: sufezyc

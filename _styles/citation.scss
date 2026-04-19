@@ -21,7 +21,7 @@ $wrap: 800px;
   position: relative;
   width: $thumb-size;
   flex-shrink: 0;
-  // box-shadow: var(--shadow);
+  margin-left: 15px;
 }
 
 .citation-image img {

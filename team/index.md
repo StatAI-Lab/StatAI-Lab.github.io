@@ -29,6 +29,12 @@ Meet the members of StatAI Lab.
 
 {% include section.html %}
 
+## Undergraduate Students
+
+{% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
+
+{% include section.html %}
+
 ## Alumni
 
 StatAI Lab is proud of our former members who continue to advance the field of AI and statistics in various institutions worldwide.

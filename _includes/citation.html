@@ -10,6 +10,12 @@
 
 <div class="citation-container">
   <div class="citation">
+    {% if include.image %}
+      <div class="citation-image">
+        <img src="{{ include.image | relative_url }}" alt="{{ citation.title }}" />
+      </div>
+    {% endif %}
+
     {% if include.style == "rich" %}
       <div class="citation-text">
         {% assign type = site.data.types[citation.type] %}
