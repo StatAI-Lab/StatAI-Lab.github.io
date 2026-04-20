@@ -1,3 +1,18 @@
+- id: JASA2026
+  title: 'Discussion of "LAMBDA: Large Model Based Data Agent"'
+  authors:
+  - Bang Liu
+  - Run Yang
+  - Fan Zhou
+  publisher: Journal of the American Statistical Association (JASA)
+  date: '2026-01-01'
+  link: /assets/publications/JASA2026.pdf
+  type: paper
+  image: images/publication/JASA2026.jpg
+  buttons:
+  - type: pdf
+    text: PDF
+    link: /assets/publications/JASA2026.pdf
 - id: doi:2026.eacl-long.161
   title: 'Breach in the Shield: Unveiling the Vulnerabilities of Large Language Models'
   authors:

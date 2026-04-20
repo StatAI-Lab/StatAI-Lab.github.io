@@ -1,7 +1,7 @@
 ---
 ---
 
-# StatAI Lab
+## About us
 
 StatAI Lab is dedicated to exploring the deep integration of large language models (LLMs) and statistics.
 We focus on the applications of statistical theory in AI interpretability and uncertainty quantification,
@@ -16,17 +16,19 @@ while also investigating how AI can better empower statistical inference.
 
 {% include section.html %}
 
-## Research
+## Our Research Focus
 
-Our research spans several interconnected areas at the intersection of statistical theory and modern machine learning:
+Our research spans the intersection of statistical theory, machine learning, and large language models. We focus on developing reliable methods to ensure robust decision-making, interpretability, and reliable uncertainty quantification in modern AI systems.
 
-**Distributionally Robust Reinforcement Learning & Off-Policy Evaluation.** We develop rigorous methods for RL under distribution shift, including variance control, adversarial robustness, and off-policy evaluation in confounded MDPs. Work appears at ICML, IJCAI, NeurIPS.
++ **AI for Statistics**: We connect foundation models with statistical inference. Our work explores how statistical principles can enhance the security, reliability, and interpretability of Large Language Models (LLMs), while **also using** LLMs to **improve** traditional statistical prediction.
 
-**AI for Statistical Inference.** We investigate how LLMs can assist statistical reasoning — from influence-based prediction enhancement to uncertainty quantification in foundation models — and conversely, how statistical principles can improve the reliability and interpretability of LLMs.
++ **Methodology and Theory of Reinforcement Learning**: We build solid theoretical foundations for RL. Our focus is on enabling reliable decision-making in complex environments through variance control, robust learning under distribution shifts, and sample-efficient exploration strategies.
 
-**Two-Sided Markets & Platform Optimization.** We apply causal inference and stochastic optimization to ride-sharing platforms, matching markets, and recommendation systems, with publications in JASA and JCGS.
++ **Two-Sided Market and Spatio-temporal System**: We apply advanced machine learning to optimize complex, real-world platforms. By integrating causal inference and stochastic optimization, we solve challenges in ride-sharing equilibrium, recommendation systems, and spatio-temporal forecasting.
 
-**Uncertainty Quantification & Nonparametric Statistics.** We develop scalable methods for uncertainty estimation in deep learning, including conformal prediction and robust graph/network analysis, with work published in JMLR and NeurIPS.
++ **Uncertainty Quantification**: Trustworthy AI requires reliable estimation. We develop robust methods for off-policy evaluation in confounded environments, deep nonparametric regression, and optimal treatment allocation, ensuring data-driven decisions are clear and accurate.
+
++ **Graph Representation Learning**: **Since network data is everywhere**, we develop novel statistical methods for complex graph structures. Our work includes **creating** diffusion-based representation learning and addressing semi-supervised learning challenges with non-ignorable missing data.
 
 {%
   include button.html
@@ -43,7 +45,7 @@ Our research spans several interconnected areas at the intersection of statistic
 
 **StatAI Lab** is located at **Shanghai University of Finance and Economics**.
 
-We are always open to collaborations and inquiries from researchers and students interested in the intersection of LLMs and statistics.We welcome prospective PhD and Master's students who are passionate about research at the intersection of large language models and statistics.
+We **enthusiastically welcome prospective PhD and Master's students from diverse universities** who are passionate about research at the intersection of LLMs and statistics. Whether you are from a local or international institution, we value the unique perspective you bring to our team. We are **always open to fostering collaborations and inquiries from researchers and practitioners across all universities, institutions, and companies**. We thrive on building connections with those interested in advancing the field of LLMs and statistics together.
 
 ### Requirements
 
@@ -72,7 +74,8 @@ We are always open to collaborations and inquiries from researchers and students
 ## Latest News
 
 <ul class="news-list">
-  {% for post in site.posts limit: 5 %}
+  {% assign visible_posts = site.posts | where_exp: "post", "post.draft != true" %}
+  {% for post in visible_posts limit: 5 %}
     <li>
       <span class="news-date">{{ post.date | date: "%Y-%m-%d" }}</span>
       <span class="news-excerpt">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</span>

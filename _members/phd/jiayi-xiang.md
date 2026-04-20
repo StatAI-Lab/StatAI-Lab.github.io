@@ -2,6 +2,7 @@
 name: Jiayi Xiang
 image: images/phd/jiayi-xiang.jpeg
 role: phd
+year: 2
 affiliation: Shanghai University of Finance and Economics
 links:
   github: JiayiXiang11

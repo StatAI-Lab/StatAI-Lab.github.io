@@ -12,7 +12,7 @@
   <div class="citation">
     {% if include.image %}
       <div class="citation-image">
-        <img src="{{ include.image | relative_url }}" alt="{{ citation.title }}" />
+        <img src="{{ include.image | relative_url }}" alt="{{ citation.title | xml_escape }}" />
       </div>
     {% endif %}
 

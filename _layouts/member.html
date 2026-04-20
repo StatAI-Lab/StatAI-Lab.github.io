@@ -2,9 +2,9 @@
 layout: default
 ---
 
-{% capture floatcontent %}
+{% capture leftcontent %}
 
-{% include portrait.html lookup=page.slug %}
+{% include portrait.html lookup=page.slug year=page.year %}
 
 <div>
   {% for link in page.links %}
@@ -16,6 +16,11 @@ layout: default
 
 {% endcapture %}
 
-{% include float.html content=floatcontent %}
-
-{{ content }}
+<div class="member-hero">
+  <div class="member-left">
+    {{ leftcontent }}
+  </div>
+  <div class="member-content">
+    {{ content }}
+  </div>
+</div>

@@ -2,6 +2,7 @@
 name: Ziwei Wang
 image: images/phd/ziwei-wang.jpg
 role: phd
+year: 2
 affiliation: Shanghai University of Finance and Economics
 links:
   github: sleeveup

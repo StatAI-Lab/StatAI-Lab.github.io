@@ -2,6 +2,7 @@
 name: Jiafan Wang
 image: images/phd/jiafan-wang.JPG
 role: phd
+year: 1
 affiliation: Shanghai University of Finance and Economics
 links:
   github: wangjiafan123

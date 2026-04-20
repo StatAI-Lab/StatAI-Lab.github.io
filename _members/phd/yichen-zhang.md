@@ -2,6 +2,7 @@
 name: Yichen Zhang
 image: images/phd/yichen-zhang.jpg
 role: phd
+year: 1
 
 affiliation: Shanghai University of Finance and Economics
 links:

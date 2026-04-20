@@ -18,4 +18,4 @@ Our work appears in top-tier venues across machine learning, statistics, and dat
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include list.html data="citations" component="citation" style="rich" group_by_year=false %}

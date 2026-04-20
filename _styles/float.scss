@@ -36,3 +36,24 @@ $wrap: 600px;
     max-width: unset;
   }
 }
+
+.member-hero {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.member-left {
+  flex-shrink: 0;
+}
+
+.member-content {
+  flex: 1;
+}
+
+@media (max-width: $wrap) {
+  .member-hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

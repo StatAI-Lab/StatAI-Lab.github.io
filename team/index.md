@@ -7,7 +7,6 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Meet the members of StatAI Lab.
 
 {% include section.html %}
 
@@ -19,7 +18,7 @@ Meet the members of StatAI Lab.
 
 ## PhD Students
 
-{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd'" sort_by="year" %}
 
 {% include section.html %}
 

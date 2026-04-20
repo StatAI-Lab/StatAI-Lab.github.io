@@ -7,8 +7,8 @@ $wrap: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
-  margin: 40px 0;
+  gap: 24px;
+  margin: 24px 0;
 }
 
 .feature-image {
@@ -31,7 +31,7 @@ $wrap: 800px;
 }
 
 .feature-title {
-  font-size: var(--large);
+  font-size: 1.6rem;
   text-align: center;
   font-family: var(--heading);
   font-weight: var(--semi-bold);

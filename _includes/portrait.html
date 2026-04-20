@@ -38,7 +38,9 @@
 
     {% if member.description or type %}
       <span class="portrait-description">
-        {{ member.description | default: type.description }}
+        {% if include.year %}PhD (Year {{ include.year }}){% if member.description %} · {{ member.description }}{% endif %}
+        {% else %}{{ member.description | default: type.description }}
+        {% endif %}
       </span>
     {% endif %}
 

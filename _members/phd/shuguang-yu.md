@@ -2,6 +2,7 @@
 name: Shuguang Yu
 image: images/phd/shuguang-yu.JPG
 role: phd
+year: 5
 affiliation: Shanghai University of Finance and Economics
 links:
   github: ShuguangYu

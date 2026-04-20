@@ -14,9 +14,13 @@
 {% for year in years %}
   {% assign data = year.items %}
 
-  {% if years.size > 1 %}
+  {% if years.size > 1 and include.group_by_year != false %}
     {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
     {% assign data = data | sort: "date" | reverse %}
+  {% endif %}
+
+  {% if include.sort_by %}
+    {% assign data = data | sort: include.sort_by | reverse %}
   {% endif %}
 
   {% for d in data %}
@@ -54,6 +58,7 @@
       type=d.type
       url=d.url
       width=d.width
+      year=d.year
     %}
   {% endfor %}
 {% endfor %}
