@@ -16,6 +16,7 @@
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
+    data-role="{{ include.role }}"
     aria-label="{{ member.name | default: "member link" | regex_strip }}"
   >
     {% if type %}
@@ -37,17 +38,23 @@
     {% endif %}
 
     {% if member.description or type %}
+      {% if member.description and member.role == 'principal-investigator' %}
+      <span class="portrait-description pi-info-block">{{ member.description }}</span>
+      {% else %}
       <span class="portrait-description">
         {% if include.year %}PhD (Year {{ include.year }}){% if member.description %} · {{ member.description }}{% endif %}
         {% else %}{{ member.description | default: type.description }}
         {% endif %}
       </span>
+      {% endif %}
     {% endif %}
 
     {% if member.affiliation %}
+      {% unless page.slug == member.slug %}
       <span class="portrait-affiliation">
         {{ member.affiliation }}
       </span>
+      {% endunless %}
     {% endif %}
   </a>
 </div>

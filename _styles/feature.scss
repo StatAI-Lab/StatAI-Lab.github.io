@@ -28,13 +28,22 @@ $wrap: 800px;
 
 .feature-text {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .feature-title {
   font-size: 1.6rem;
-  text-align: center;
+  text-align: left;
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+  margin: 0;
+}
+
+.feature-text > p,
+.feature-text > div {
+  margin: 0;
 }
 
 .feature[data-flip] {

@@ -26,6 +26,15 @@
   gap: 15px;
   width: unset;
   text-align: left;
+
+  .icon {
+    display: none;
+  }
+
+  .portrait-description,
+  .portrait-affiliation {
+    display: none;
+  }
 }
 
 .portrait .icon {
@@ -48,10 +57,6 @@
   top: -2px;
 }
 
-.portrait[data-style="tiny"] .icon {
-  display: none;
-}
-
 .portrait-image {
   width: 100%;
   margin-bottom: 20px;
@@ -69,11 +74,45 @@
 .portrait-name {
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+  text-align: center;
 }
 
-.portrait[data-style="tiny"] {
-  .portrait-description,
+.portrait-description,
+.portrait-affiliation {
+  text-align: center;
+}
+
+.pi-info-block {
+  white-space: pre;
+  line-height: 1.4;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.portrait[data-role="principal-investigator"] {
+  width: auto;
+  min-width: 220px;
+  max-width: 100%;
+  align-items: center;
+  flex-direction: column;
+
+  .portrait-image {
+    width: 175px;
+    flex-shrink: 0;
+  }
+
+  .portrait-name {
+    font-family: var(--heading);
+    font-weight: var(--semi-bold);
+    margin-bottom: 4px;
+  }
+
   .portrait-affiliation {
     display: none;
+  }
+
+  .pi-info-block {
+    font-size: 1rem;
+    color: var(--text-muted);
   }
 }
