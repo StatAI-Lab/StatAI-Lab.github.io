@@ -5,6 +5,13 @@ nav:
   tooltip: Research projects and software
 ---
 
+# {% include icon.html icon="fa-solid fa-wrench" %}Research
+
+Our research focuses on developing and applying novel statistical and computational methodologies to tackle complex challenges in artificial intelligence, reinforcement learning, and dynamic real-world systems. We leverage large language models (LLMs), distributional reinforcement learning, spatio-temporal modeling, graph representation learning, and uncertainty quantification to gain deeper insights into automated statistical reasoning, optimize two-sided market equilibrium, ensure algorithmic robustness, improve off-policy evaluation, and enhance trustworthy AI.
+
+{% include section.html %}
+
+
 {%
   include feature.html
   image="images/research/ai-for-statistics.jpg"
@@ -36,7 +43,7 @@ nav:
   include feature.html
   image="images/research/uncertainty-quantification.jpg"
   title="Uncertainty Quantification"
-  text="Reliable off-policy evaluation (OPE) and uncertainty estimation are central to data-driven sequential decision-making. We tackle OPE under unmeasured confounding. Our two-way deconfounder models both observed and unobserved confounders using a neural tensor network, enabling consistent policy value estimation ([Two-way Deconfounder, NeurIPS 2024](/assets/publications/NIPS2024.pdf)). We further establish the first finite-sample error bounds for OPE in confounded POMDPs, showing that the error rate scales as O(T/√n) under mild conditions, and characterize the exponential error blow-up when using history-based proxies to infer hidden states ([Breaking the Order Barrier, NeurIPS 2025](/assets/publications/NIPS2025.pdf)). For value enhancement under offline RL, we propose a method that guarantees the output policy is no worse — and often better — than the initial policy, with theoretical convergence rates ([Value Enhancement, JASA 2024](/assets/publications/JASA2024.pdf)). Finally, we study optimal treatment allocation in online experiments, proposing three allocation strategies that minimize variance of treatment effect estimators in both non-Markov and Markov decision processes, with theoretical optimality guarantees ([Optimal Treatment Allocation, NeurIPS 2023](/assets/publications/NeurIPS2023b.pdf))."
+  text="Reliable AI requires principled uncertainty assessment. We develop statistically grounded methods for understanding uncertainty, reliability, and distributional behavior in modern learning systems. Our work includes robust statistical prediction and influence-based model assessment [ICLR 2025](/assets/publications/ICLR2025.pdf), trustworthy large language models [EACL 2026](/assets/publications/2026.eacl-long.161.pdf), and adversarial learning of reinforcement learning system [ICML 2023](/assets/publications/ICLR2023.pdf)."
 %}
 
 {% include section.html %}
@@ -45,5 +52,5 @@ nav:
   include feature.html
   image="images/research/graph-network-analysis.jpg"
   title="Graph Representation Learning"
-  text="Graph-structured data is ubiquitous in modern machine learning, and we develop novel statistical methods tailored to its unique challenges. Standard graph neural networks suffer when anisotropic structures are present, as isotropic noise in the forward diffusion process dilutes directional signals. We introduce directional diffusion models that use anisotropic, data-dependent noise in the forward process, preserving semantically meaningful graph representations. Extensive experiments on 12 datasets establish clear superiority over state-of-the-art baselines ([Directional Diffusion Models, NeurIPS 2023](/assets/publications/NeurIPS2023a.pdf)). Traditional semi-supervised learning on graphs assumes randomly sampled labeled nodes, which is violated in practice with nonignorable missing data. We propose GNM (Graph-based joint model with Nonignorable Missingness), which jointly models the graph structure and the missingness mechanism, achieving up to 7.5% improvement over baselines on the Cora dataset ([NeurIPS 2019](/assets/publications/NeurIPS-2019.pdf))."
+  text="Graph-structured data is ubiquitous in modern machine learning, motivating the development of specialized statistical methods. We take the first step toward diffusion models for graph-structured data by proposing directional diffusion models with anisotropic, data-dependent noise, which preserve semantically meaningful representations ([NeurIPS 2023](assets/publications/NeurIPS2023a.pdf)). In graph-based semi-supervised settings, where labeled nodes are often non-randomly missing, we further propose GNM (Graph-based joint model with Nonignorable Missingness), which jointly models the graph structure and corrects sampling bias ([NeurIPS 2019](/assets/publications/NeurIPS-2019.pdf))."
 %}

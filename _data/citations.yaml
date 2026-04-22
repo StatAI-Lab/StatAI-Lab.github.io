@@ -1,3 +1,20 @@
+- id: JASA2026a
+  title: 'Distributional Off-Policy Evaluation with Deep Quantile Process Regression"'
+  authors:
+  - Qi Kuang
+  - Chao Wang
+  - Yuling Jiao
+  - Fan Zhou
+  publisher: Journal of the American Statistical Association (JASA)
+  date: '2026-01-01'
+  link: /assets/publications/JASA2026a.pdf
+  type: paper
+  image: images/publication/JASA2026a.jpg
+  buttons:
+  - type: pdf
+    text: PDF
+    link: /assets/publications/JASA2026a.pdf
+  
 - id: JASA2026
   title: 'Discussion of "LAMBDA: Large Model Based Data Agent"'
   authors:
@@ -13,6 +30,7 @@
   - type: pdf
     text: PDF
     link: /assets/publications/JASA2026.pdf
+
 - id: doi:2026.eacl-long.161
   title: 'Breach in the Shield: Unveiling the Vulnerabilities of Large Language Models'
   authors:

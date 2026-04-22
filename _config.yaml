@@ -1,7 +1,7 @@
 # site properties and page defaults
 title: StatAI Lab
-subtitle: Dedicated to exploring the deep integration of large language models and statistics
-description: StatAI Lab is dedicated to exploring the deep integration of large language models (LLMs) and statistics. 
+subtitle: Dedicated to exploring the deep integration of artificial intelligence and statistics
+description: StatAI Lab is dedicated to exploring the deep integration of artificial intelligence and statistics. 
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
