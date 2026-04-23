@@ -38,7 +38,7 @@ Please follow our official social media account to get in touch with us.
   text="WeChat"
   link="#"
   tooltip="WeChat Official Account"
-  onclick="document.getElementById('qr-modal').style.display='flex'; return false;"
+  onclick="document.getElementById('qr-wechat').style.display='flex'; return false;"
 %}
 {%
   include button.html
@@ -46,14 +46,23 @@ Please follow our official social media account to get in touch with us.
   text="Xiaohongshu"
   link="#"
   tooltip="Xiaohongshu"
-  onclick="document.getElementById('qr-modal').style.display='flex'; return false;"
+  onclick="document.getElementById('qr-xiaohongshu').style.display='flex'; return false;"
 %}
-
 
 {%
   include qr-modal.html
-  wechat="/images/wxqrcode.jpg"
-  xiaohongshu="/images/xhsqrcode.jpg"
+  id="qr-wechat"
+  title="WeChat Official Account"
+  image="/images/wxqrcode.jpg"
+  width="220px"
+%}
+
+{%
+  include qr-modal.html
+  id="qr-xiaohongshu"
+  title="Xiaohongshu"
+  image="/images/xhsqrcode.jpg"
+  width="220px"
 %}
 
 Contact with us via email:
