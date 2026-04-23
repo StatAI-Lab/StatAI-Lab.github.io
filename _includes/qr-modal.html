@@ -1,0 +1,22 @@
+<div class="qr-modal" id="qr-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); z-index:1000; justify-content:center; align-items:center;">
+  <div class="qr-modal-content" style="background:var(--background); padding:30px; border-radius:var(--rounded); box-shadow:var(--shadow); max-width:90%; text-align:center;">
+    <p style="margin:0 0 20px 0; font-weight:var(--semi-bold);">Follow us for the latest updates</p>
+    <div style="display:flex; gap:30px; justify-content:center; flex-wrap:wrap;">
+      <div>
+        <p style="margin:0 0 10px 0; font-size:0.9rem;">WeChat Official Account</p>
+        <img src="{{ include.wechat | relative_url }}" alt="WeChat QR code" style="width:150px; height:auto; border-radius:var(--rounded);">
+      </div>
+      <div>
+        <p style="margin:0 0 10px 0; font-size:0.9rem;">Xiaohongshu</p>
+        <img src="{{ include.xiaohongshu | relative_url }}" alt="Xiaohongshu QR code" style="width:150px; height:auto; border-radius:var(--rounded);">
+      </div>
+    </div>
+    <button onclick="document.getElementById('qr-modal').style.display='none'" style="margin-top:20px; padding:8px 20px; cursor:pointer;">Close</button>
+  </div>
+</div>
+
+<script>
+document.getElementById('qr-modal').addEventListener('click', function(e) {
+  if (e.target === this) this.style.display = 'none';
+});
+</script>

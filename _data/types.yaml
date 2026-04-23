@@ -131,6 +131,21 @@ linkedin:
   tooltip: LinkedIn
   link: https://www.linkedin.com/in/$VALUE
 
+social:
+  icon: fa-solid fa-qrcode
+  text: Follow Us
+  tooltip: Follow us on WeChat and Xiaohongshu
+
+wechat:
+  icon: fa-solid fa-qrcode
+  text: WeChat
+  tooltip: WeChat Official Account
+
+xiaohongshu:
+  icon: fa-solid fa-qrcode
+  text: Xiaohongshu
+  tooltip: Xiaohongshu
+
 # alerts
 
 tip:

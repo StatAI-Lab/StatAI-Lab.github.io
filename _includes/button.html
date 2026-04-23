@@ -5,9 +5,14 @@
   <div class="button-wrapper">
     <a
       class="button"
-      href="{{ button.link | replace: "$LINK", button.link | replace: "$VALUE", button.link | relative_url }}"
+      {% if button.link and button.link != "#" %}
+        href="{{ button.link | replace: "$LINK", button.link | replace: "$VALUE", button.link | relative_url }}"
+      {% endif %}
       {% if button.tooltip %}
         data-tooltip="{{ button.tooltip | xml_escape }}"
+      {% endif %}
+      {% if include.onclick %}
+        onclick="{{ include.onclick }}"
       {% endif %}
       data-style="{{ include.style }}"
       {% if include.flip %}

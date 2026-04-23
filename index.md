@@ -44,7 +44,6 @@ We **enthusiastically welcome prospective PhD and Master's students from diverse
 
 **PhD Candidates**
 
-- Aspiring to an academic career in the future
 - Strong mathematical and statistical foundations, self-motivated, and passionate about research
 - Familiar with Python and GPU computing; programming skills are a plus
 
@@ -56,15 +55,13 @@ We **enthusiastically welcome prospective PhD and Master's students from diverse
 If you are interested in our projects and would like to join StatAI Lab as a **full-time** member, please send your **CV** along with a **brief statement** of your **research interests** to zhoufan@mail.shufe.edu.cn
 
 ### Collaboration & Partnerships
-We are also open to collaborations with **enterprises, institutions, schools, and individuals** who share an interest in LLMs and statistical research. If you are interested in working with us, please fill out the registration form below and we will get back to you.
+We are also open to collaborations with **enterprises, institutions, schools, and individuals** who share an interest in LLMs and statistical research. If you are interested in working with us, please send a **brief introduction** of yourself or your organization, along with a **statement** detailing the nature of the proposed collaboration (e.g., joint academic research, remote collaboration, data sharing, compute resource sponsorship, etc.) to zhoufan@mail.shufe.edu.cn.
 
 {%
   include button.html
-  link="https://docs.google.com/forms/placeholder"
-  text="Register your interest"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
+  type="email"
+  text="zhoufan@mail.shufe.edu.cn"
+  link="zhoufan@mail.shufe.edu.cn"
 %}
 
 {% include section.html %}

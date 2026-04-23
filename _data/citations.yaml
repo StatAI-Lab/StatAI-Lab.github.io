@@ -1,5 +1,5 @@
 - id: JASA2026a
-  title: 'Distributional Off-Policy Evaluation with Deep Quantile Process Regression"'
+  title: 'Distributional Off-Policy Evaluation with Deep Quantile Process Regression'
   authors:
   - Qi Kuang
   - Chao Wang
@@ -16,7 +16,7 @@
     link: /assets/publications/JASA2026a.pdf
   
 - id: JASA2026
-  title: 'Discussion of "LAMBDA: Large Model Based Data Agent"'
+  title: 'Discussion of "LAMBDA: Large Model Based Data Agent'
   authors:
   - Bang Liu
   - Run Yang
@@ -265,7 +265,7 @@
     text: PDF
     link: /assets/publications/NIPS2024.pdf
 - id: inproceedings:2025
-  title: '{Breaking the Order Barrier: Off-Policy Evaluation for Confounded POMDPs'
+  title: 'Breaking the Order Barrier: Off-Policy Evaluation for Confounded POMDPs'
   authors:
   - Qi Kuang
   - Jiayi Wang
