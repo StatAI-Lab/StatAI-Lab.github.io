@@ -36,6 +36,30 @@ Our research integrates statistical principles with deep learning and reinforcem
 %}
 
 {% include section.html %}
+## Latest News
+
+<ul class="news-list">
+  {% assign visible_posts = site.posts | where_exp: "post", "post.draft != true" %}
+  {% for post in visible_posts limit: 5 %}
+    <li>
+      <span class="news-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <span class="news-excerpt">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+      <a href="{{ post.url | relative_url }}" class="news-more">Learn more →</a>
+    </li>
+  {% endfor %}
+</ul>
+
+{%
+  include button.html
+  link="blog"
+  text="All News"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+
+{% include section.html %}
 ## Join Our Team
 
 We **enthusiastically welcome prospective PhD and Master's students from diverse universities** who are passionate about research at the intersection of LLMs and statistics. Whether you are from a local or international institution, we value the unique perspective you bring to our team. We are **always open to fostering collaborations and inquiries from researchers and practitioners across all universities, institutions, and companies**.
@@ -64,25 +88,3 @@ We are also open to collaborations with **enterprises, institutions, schools, an
   link="zhoufan@mail.shufe.edu.cn"
 %}
 
-{% include section.html %}
-## Latest News
-
-<ul class="news-list">
-  {% assign visible_posts = site.posts | where_exp: "post", "post.draft != true" %}
-  {% for post in visible_posts limit: 5 %}
-    <li>
-      <span class="news-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-      <span class="news-excerpt">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</span>
-      <a href="{{ post.url | relative_url }}" class="news-more">Learn more →</a>
-    </li>
-  {% endfor %}
-</ul>
-
-{%
-  include button.html
-  link="blog"
-  text="All News"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
