@@ -9,7 +9,7 @@
   date: '2026-01-01'
   link: /assets/publications/44_Variance_aware_Reward_Model.pdf
   type: paper
-  image:
+  image: images/publication/44_Variance_aware_Reward_Model.jpg
   buttons:
   - type: pdf
     text: PDF
