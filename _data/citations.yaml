@@ -346,3 +346,41 @@
   - type: pdf
     text: PDF
     link: /assets/publications/NeurIPS2023b.pdf
+
+- id: STAI2026_44
+  title: 'Variance-aware Reward Modeling with Anchor Guidance'
+  authors:
+  - Shuxing Fang
+  - Ruijian Han
+  - Liangyu Zhang
+  - Fan Zhou
+  publisher: STAl-X 2026 Conference Strong
+  date: '2026-01-01'
+  link: /assets/publications/44_Variance_aware_Reward_Model.pdf
+  type: paper
+  image: 
+  buttons:
+  - type: pdf
+    text: PDF
+    link: /assets/publications/44_Variance_aware_Reward_Model.pdf
+
+- id: STAI2026_119
+  title: 'Global Average Treatment Effects for Individualized Randomization Experiments with Aggregate Data'
+  authors:
+  - Shuguang Yu
+  - Ting Li
+  - Yuchen Lu
+  - Chengchun Shi
+  - Fan Zhou
+  - Zhichao Zou
+  - Zhen Peng
+  - Hongtu Zhu
+  publisher: STAl-X 2026 Conference Borderline
+  date: '2026-01-01'
+  link: /assets/publications/119_Global_Average_Treatment_E.pdf
+  type: paper
+  image: 
+  buttons:
+  - type: pdf
+    text: PDF
+    link: /assets/publications/119_Global_Average_Treatment_E.pdf
