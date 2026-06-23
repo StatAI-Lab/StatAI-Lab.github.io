@@ -30,7 +30,7 @@
   date: '2026-01-01'
   link: /assets/publications/119_Global_Average_Treatment_E.pdf
   type: paper
-  image:
+  image: images/publication/119_Global_Average_Treatment_E.jpg
   buttons:
   - type: pdf
     text: PDF
